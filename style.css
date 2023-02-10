@@ -1,0 +1,76 @@
+#container{
+    width: 40%;
+    height: 85vh;
+    background-color: gray;
+    border: 1px solid gray;
+    /* border-radius: 1.6rem; */
+    margin: auto;
+    margin-top: 2%;
+}
+.full-width{
+    width: 98%;
+    margin: 1rem;
+    margin: 0.5rem 0.3rem;
+}
+.calc-heading{
+    height: 12%;
+    background-color: black;
+    /* margin: 0 0.3rem; */
+}
+.calc-heading h1{
+    color: white;
+    text-align: center;
+    font-size: 2.5rem;
+
+}
+.calc-content{
+    width: 95%;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: flex-end;
+    height: 20%;
+    background-color: lightgray;
+    font-size: 4rem;
+    font-weight: 600;
+    padding-right: 1rem;
+    padding-bottom: 1rem;
+
+}
+.calc-num-container{
+    /* display: flex; */
+    height:61% ;
+    /* background-color: yellow; */
+}
+.nums-operator{
+    width: 100%;
+    height:18% ;
+    /* background-color: skyblue; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 0.1rem;
+}
+.nums-operator div{
+    width: 12rem;
+    height:3rem;
+    background-color: white;
+    margin: 0.1rem;
+    text-align: center;
+    font-size: 2rem;
+    padding: 0.2rem;
+    cursor: pointer;
+}
+#size-2{
+    width: 75%;
+}
+.nums-operator div:hover{
+    background-color: lightsalmon;
+}
+.nums-operator div:last-child{
+    background-color: darkred;
+    color: white;
+}
+.nums-operator div:last-child:hover{
+    background-color:lightcoral;
+}
